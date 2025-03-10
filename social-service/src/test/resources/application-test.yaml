@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: social-service-test
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: social_test_db
+      auto-index-creation: true
+
+eureka:
+  client:
+    enabled: false 
